@@ -1,0 +1,180 @@
+\documentclass[a4paper,11pt]{kth-mag}
+\usepackage{glossaries}
+\glsdisablehyper
+\usepackage{textcomp}
+\usepackage[table]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{todonotes}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{url}
+\usepackage[swedish,english]{babel}
+\usepackage{modifications}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{dirtree}
+\usepackage{array}
+\usepackage{pdfpages}
+\usepackage{longtable}
+
+\extrafloats{1000}
+
+
+\bibliographystyle{ieeetran}
+\title{Pong playing robot}
+
+\subtitle{Thesis WIP}
+\foreigntitle{Pongrobot}
+
+\author{Filip Björklund
+
+Christopher Strand}
+\date{\today}
+\blurb{Bachelor’s Thesis at ITM\\Supervisor: Nihad Subasic \\ Examiner: Nihad Subasic}
+\trita{TRITA-ITM-EX 2019:49}
+\begin{document}
+\frontmatter
+\pagestyle{empty}
+\removepagenumbers
+\maketitle
+\selectlanguage{english}
+
+
+\clearpage
+\begin{abstract}
+
+Write the abstract here.
+
+\end{abstract}
+\clearpage
+\begin{foreignabstract}{swedish}
+
+Abstract in Swedish goes here.
+
+\end{foreignabstract}
+\clearpage
+
+\chapter*{Acknowledgements}
+
+I would like to thank...
+
+\clearpage
+\tableofcontents*
+\clearpage
+\listoffigures*
+\clearpage
+\listoftables*
+\printglossaries
+\mainmatter
+\pagestyle{newchap}
+
+\chapter{Introduction}
+
+
+\section{Background}
+
+Robots are being increasingly used in industries and home applications. These applications will play an important role in future society. Automation is already common in the industrial sector and there is little indication that this trend will decrease. Some speak of the fourth industrial revolution (Industry 4.0), referring to (for example) increasingly advanced artificial intelligence, autonomous vehicles and robotics. 
+
+\\
+
+Artificial intelligence often has a common basis both with robotics and software applications, such as video games. The results of developing artificial intelligence in video games can often be used in robotic applications (and vice versa). One of the first video games was Pong. Pong is basically a two-dimensional version of tennis (or table tennis). Pong was a key factor in order to establish the video game industry. Since the release of Pong, the video game industry has helped to develop the digital revolution that has put society where it is today. 
+\\
+\\
+The question that initiated this project was if it’s possible to use machine learning as a basis for a physical robot. The simple rules of Pong were chosen as a starting point for this analysis. If it is possible to create competing robots playing a game with the simple rules of Pong then the results of this easily can be extrapolated to more complex systems.  
+ 
+\section{Purpose} %Skriv om utifrån feedback
+The purpose of this project was to see if it's possible to create two robots playing a variant of the game Pong, against each other, and trough machine learning become better than the opponent. So what can this project be implemented to in everyday life?
+\\
+\\
+As an example it could be implemented in industries, helping the robots work together and become more efficient, reducing bottlenecking and production time.
+Another example would be all the different robots people have started using in their home, increasing efficiency in traveling routes, leading to less unnecessasry worktime, which means longer lifespan and reduced costs.\\
+\\
+Research questions that came to mind:
+
+- How can the robot see the ball?
+
+- How should the robot react?
+
+%- How should the aiming be implemented? %Onödigt?
+
+- What sensors are possible to use, and which are best suited for this project?
+
+- Which microcontroller to use?
+
+
+\section{Scope}
+The scope of this project was to construct a robot with limited time, money and knowledge in the different areas knowledge is needed but still try to accomplish the main goal that was proposed in 1.2 Purpose.
+
+
+\section{Method}
+
+
+\paragraph{Paragraph} This is what a paragraph looks like.
+
+
+\chapter{Theory}
+
+\section{DC and servo motors}
+In order to control the moving parts of the robot, motors needed to be used. The two primary motors alternatives for this project were DC and servo motors. The DC motor is operated by direct current and consists of %Skriv här de olika komponenterna. 
+
+Servo motors are % Skriv om servo 
+
+\section{Sensors}
+In 
+
+Ultraljud
+
+(Kamera)
+
+\section{Microcontroller}
+
+Raspberry pi / Mikrokontroller och varför vårt val
+
+\section{Object recognition}
+
+Bildigenkänning
+
+\section{Dynamics of the game}
+Bollens dynamik
+(Avfyrningsmekanism?)
+
+\section{Kiwi drive}
+Kiwi drive / Omniwheels 
+
+\section{Launching}
+Avfyrningsmekanism
+Magnetism?
+
+\section{Machine learning}
+
+\subsection{Type of Machine learning}
+
+\chapter{Demonstrator}
+
+\section{Setup}
+
+\section{Hardware}
+
+\section{Software}
+
+
+\chapter{Results}
+
+
+\chapter{Discussion and conclusion}
+
+
+
+\bibliography{thesisrefs}
+
+\appendix
+\addappheadtotoc
+\chapter{First Appendix}
+
+Appendix text goes here.
+
+\end{document}
