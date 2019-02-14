@@ -1,0 +1,8 @@
+\section{Kiwi drive} % Filip, om detta
+Omnidirectional wheels are wheels designed to allow for movement in both transversal and rotational directions, making to wheels able to move in three degrees of freedom. This type of wheels make it easy for a robotic system to be used in a wide range of applications. The wheel is built as a normal wheel but with smaller decoupled wheels, called freerollers, on the struture.%Referens till artikel
+These freerollers rotates when the entire wheel is pushed sideways, allowing for movement to this side without slipage from the wheels. %Kanske lägg till figur här
+\\
+\\
+Omnidirectional wheels can be used in configuration with each other which allows the entire robot to move easily in three degrees of freedom. Three wheels is the smallest amount of omnidirectional wheels that can be used in order to make the configuration to work. This drive system is called kiwi drive. %Lägg till referns här
+In kiwi drive, the wheels are orientated 120 degrees from each other. Each wheel is driven by a motor connected to that specific wheel. This allows each wheel to be rotated at different speeds and directions. The resulting force from the three wheels in this configuration is the force that makes the robot move in a particular direction. %Kanske en figur här om krafterna från Kiwi drive
+Since the wheels has freerollers connected to the wheels, each wheel will be able to move both sideways and forwards, allowing for the 3 DoF drive. 
